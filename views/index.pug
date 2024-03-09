@@ -1,0 +1,35 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    title Rishav
+    link(rel="stylesheet", href="CSS/index.css")
+    link(rel="icon", href="Images/Profile.png")
+
+  body
+    .container
+      .left
+        .top-left.left-data Hi, I am
+        .name.left-data #{firstName} #{lastName}
+        .caption.left-data #{CurrentRole}
+        .left-social-link.left-data
+          .github
+
+            a(href= github)
+                img(src="../Images/github.png", alt="")
+        
+          .linkedIn
+            a(href= linkedIn) 
+                img(src="../Images/linkedIn.png", alt="")
+      .right
+        .navbar
+          #navbar-aboutme.navbar-item About Me
+          #navbar-skills.navbar-item Skills
+          #navbar-portfolio.navbar-item Portfolio
+        //- .image
+        //-   img(src="../Images/Profile.png", alt="Profile Picture")
+    .footer
+      h3 #{firstName} #{lastName}
+      p #{BriefIntroduction}
+    script(src="JS/index.js")

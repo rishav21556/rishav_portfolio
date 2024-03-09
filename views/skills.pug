@@ -1,0 +1,45 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    title Skills
+    link(rel="stylesheet", href="CSS/aboutme.css")
+    link(rel="icon", href="Images/Profile.png")
+  body
+    .container
+      .sidebar
+        #navbar-home
+          a(href=`http://192.168.1.17:3000/`)
+            button.btn Home
+        #navbar-aboutme
+          a(href=`http://192.168.1.17:3000/aboutMe`)
+            button.btn About Me
+        #navbar-skills
+          a(href=`http://192.168.1.17:3000/skills`)
+            button.btn Skills
+        #navbar-portfolio
+          a(href=`http://192.168.1.17:3000/portfolio`)
+            button.btn Portfolio
+        #navbar-email
+          a(href=`mailto:${email}` target="_blank")
+            button.btn Email
+        #navbar-linkedIN 
+          a(href=`${linkedIn}` target="_blank")
+            button.btn LinkedIn
+        #navbar-github 
+          a(href=`${github}` target="_blank")
+            button.btn GitHub
+            
+      .main
+        .header
+          .heading.left-sliding SKILLS
+        .specific-data.right-sliding
+          each val,key in skills
+            .box
+              .specific-data-heading #{key}
+              .specific-data-desc #{val}
+
+
+        
+    script(src="JS/index.js")

@@ -1,0 +1,46 @@
+{
+    "firstName": "Rishav",
+    "lastName": "Raj",
+    "age": "19",
+    "email": "rishav21556@iiitd.ac.in",
+    "linkedIn": "https://www.linkedin.com/in/rishav-raj-710765262",
+    "github": "https://github.com/rishav21556/",
+    "CurrentRole":"3rd Year Undergraduate Student at IIIT-Delhi",
+    "BriefIntroduction":"I am a 3rd year undergraduate student at IIIT-Delhi. I am passionate about technology and I love to learn new things. I am a quick learner and I am always ready to take up new challenges. I am a team player and I love to work in a team. I am a good communicator and I am always ready to help others. I am a good problem solver",
+    "skills": {
+        "ProgrammingLanguages": ["C++", "Python", "Java", "JavaScript"],
+        "WebDevelopment": ["HTML", "CSS", "React", "Node.js", "Express.js", "MongoDB"],
+        "MachineLearning": ["Scikit-learn", "TensorFlow", "Keras", "PyTorch"],
+        "DeepLearning": ["CNN", "RNN", "LSTM", "GRU", "GAN"],
+        "DataScience": ["Pandas", "Numpy", "Matplotlib", "Seaborn", "Plotly"],
+        "Databases": ["MySQL", "MongoDB"],
+        "OperatingSystems": ["Windows", "Linux"],
+        "Tools": ["Git", "Docker", "Jupyter Notebook", "VS Code", "PyCharm", "IntelliJ IDEA", "Eclipse", "NetBeans"],
+        "Others": ["DataStructures", "Algorithms", "ProblemSolving", "CompetitiveProgramming"]
+    },
+    "FieldKnowledge":{
+        "Machine Learning" : "I have a good knowledge of Machine Learning. I have done various projects in Machine Learning. I have a good knowledge of various algorithms and techniques used in Machine Learning. I have a good knowledge of various libraries and frameworks used in Machine Learning.",
+
+        "Web Development" : "I have a good knowledge of Web Development. I have done various projects in Web Development. I have a good knowledge of various technologies and frameworks used in Web Development.",
+
+        "Data Structures and Algorithms" : "I have a good knowledge of Data Structures and Algorithms. I have done various projects in Data Structures and Algorithms. I have a good knowledge of various algorithms and techniques used in Data Structures and Algorithms. I have a good knowledge of various libraries and frameworks used in Data Structures and Algorithms."
+    },
+    "Portfolio":{
+        "Shivadhesh":{
+            "Description": "Shivadhesh is a user-friendly E-commerce website that develop an intuitive and visually appealing user interface that ensures easy navigation and enhances the overall user experience. It is a responsive website that is compatible with all devices.",
+            "links":{
+                "Github": "https://github.com/rishav21556/shivadhesh"
+            }
+            
+        },
+        "Mechanism of Action Prediction":{
+            "Description": "Mechanism of Action Prediction is a machine learning project that predicts the mechanism of action of a drug. It is a multi-label classification problem.",
+
+            "links":{
+                "Report": "https://drive.google.com/file/d/14iubIHk98xXPPetm7rXFDc51OS7wnxcw/view?usp=sharing"
+
+            }
+        }
+    }
+
+}
